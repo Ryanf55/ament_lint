@@ -2,6 +2,16 @@
 Changelog for package ament_flake8
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Changes to make ament_flake8 work with v6+ (`#459 <https://github.com/Ryanf55/ament_lint/issues/459>`_) (`#464 <https://github.com/Ryanf55/ament_lint/issues/464>`_)
+  * Changes to make ament_flake8 work with v6+
+  * Correct make_file_checker_manager call
+  * Fix compatibility with flake8 5.
+  (cherry picked from commit fc0243214e50ad7de30be0ffb589f23b951841b4)
+  Co-authored-by: Michael Carroll <mjcarroll@intrinsic.ai>
+* Contributors: mergify[bot]
+
 0.12.9 (2023-11-13)
 -------------------
 * [backport humble] Fix compatibility with flake8 version 5 (`#387 <https://github.com/ament/ament_lint/issues/387>`_, `#410 <https://github.com/ament/ament_lint/issues/410>`_) (`#451 <https://github.com/ament/ament_lint/issues/451>`_)
